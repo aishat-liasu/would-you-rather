@@ -1,6 +1,7 @@
 # Would You Rather?
 
 "Would you rather?" is an web app that enables authorized users answer questions and rank their scores with other users.
+This app was bootstrapped with create-react-app.
 
 ## Features
 

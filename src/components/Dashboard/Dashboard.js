@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
+import { connect } from 'react-redux';
 import './Dashboard.css';
 
 import QuestionCard from '../QuestionCard/QuestionCard';
 
-import { connect } from 'react-redux';
-
 const Dashboard = (props) => {
-  console.log(props);
   const [category, setCategory] = useState(0);
 
   const answeredQuestionsIds = props.answeredQuestions;
@@ -64,6 +62,7 @@ function mapStateToProps({ questions, users, authedUser }) {
     answeredQuestions,
     questions,
     users,
+    userIn: authedUser === null,
   };
 }
 

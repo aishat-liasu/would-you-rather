@@ -14,7 +14,6 @@ export function handleAddAnswer(answerText, questionId) {
       questionId,
       answerText,
     }).then((res) => {
-      console.log(res);
       dispatch(addAnswerToQuestions(res.questions));
       dispatch(addAnswerToUsers(res.users));
     });

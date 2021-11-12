@@ -19,15 +19,39 @@
 
 .question-options {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.question-option {
-    text-transform: capitalize;
+
+.question-votes {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
 
 .question-vote {
     font-weight: 600;
 }
+
+.option-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.option-text {
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+
+
+

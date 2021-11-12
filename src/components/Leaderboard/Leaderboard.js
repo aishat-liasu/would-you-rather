@@ -6,8 +6,6 @@ import './Leaderboard.css';
 import LeaderCard from '../LeaderCard/LeaderCard';
 
 const Leaderboard = ({ leadersIds, users, authedUser }) => {
-  const userId = authedUser.id;
-
   console.log(users, leadersIds);
 
   return (
@@ -20,7 +18,7 @@ const Leaderboard = ({ leadersIds, users, authedUser }) => {
   );
 };
 
-function mapStateToProps({ users, authedUser }) {
+function mapStateToProps({ users }) {
   return {
     leadersIds: Object.keys(users).sort((firstEl, secondEl) => {
       const nextUser =
@@ -32,7 +30,6 @@ function mapStateToProps({ users, authedUser }) {
       return nextUser - user;
     }),
     users,
-    authedUser,
   };
 }
 

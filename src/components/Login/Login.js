@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
 import './Login.css';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 import { connect } from 'react-redux';
 import { setAuthedUser } from '../../actions/AuthUser';
 
 const Login = (props) => {
   const [selectedUser, setSelectedUser] = useState('');
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     props.dispatch(setAuthedUser(selectedUser));
+    location.pathname === '/'
+      ? navigate('/dashboard')
+      : navigate(location.pathname);
   };
 
   return (

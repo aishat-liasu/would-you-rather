@@ -1,0 +1,33 @@
+.question-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.question-page .question-card {
+    width: 400px;
+    margin: 0;
+   
+}
+
+.select-option {
+    margin-bottom: 50px;
+    border: 1px solid black;
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+
+.question-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.question-option {
+    text-transform: capitalize;
+}
+
+.question-vote {
+    font-weight: 600;
+}

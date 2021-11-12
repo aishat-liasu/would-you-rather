@@ -1,0 +1,36 @@
+.new-question-page {
+    display: block;
+}
+
+.question-form {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(135, 135, 135);
+    padding: 25px;
+    width: 50%;
+    max-width: 575px;
+    border-radius: 10px;
+}
+
+.form-title {
+    margin: 20px 0;
+}
+.form-text {
+    margin: 0;
+}
+
+.form-input {
+    padding: 5px 16px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: white !important;
+    color: #000;
+    font-size: 16px;
+    margin: 20px  0;
+}
+
+.form-input:focus {
+    outline: #003296 solid 1px;
+    border: 0;
+}

@@ -1,0 +1,27 @@
+.leader-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 25px;
+    width: 600px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.leader-rank, .leader-score {
+    margin: 0;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.leader-user {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.leader-text {
+    margin: 0;
+}

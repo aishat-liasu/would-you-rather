@@ -1,0 +1,28 @@
+.question-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 25px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.question-image {
+    width: 150px;
+}
+
+.question-user {
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.question-date {
+    margin: 5px
+}
+
+.view-button {
+
+}

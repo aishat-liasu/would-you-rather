@@ -1,0 +1,38 @@
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+}
+.categories {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+   
+}
+
+.category {
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.active-category {
+    background-color: black;
+    color: #fff;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 750px;
+    margin: auto;
+}
+
+

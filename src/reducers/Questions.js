@@ -4,7 +4,7 @@ import {
   ADD_QUESTION,
   ADD_ANSWER,
 } from '../actions/Questions';
-// handle switch cases for action types
+
 export default function questions(state = {}, action) {
   console.log(state);
   switch (action.type) {

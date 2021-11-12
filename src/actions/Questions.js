@@ -1,9 +1,6 @@
 import { _saveQuestionAnswer, _saveQuestion } from '../utils/API';
-
 import { addAnswerToUsers, addQuestionToUsers } from './Users';
-// action creators to add question
-// add answer to questions
-// handle add answer
+
 export const ADD_QUESTION = 'ADD_QUESTION';
 export const ADD_ANSWER = 'ADD_ANSWER';
 export const RECEIVE_QUESTIONS = 'RECEIVE_QUESTIONS';
